@@ -5,8 +5,8 @@ a build system for a Front-End project by reducing boilerplate and providing out
 common of use cases.  This will be accomplished by creating a number of Gulp pipelines that can be used individually,
 or configured for your project using a Yeoman Generator.
 
-This top level repo brings acts as an umbrella for general information, common issues, feature  requests, bug reports,
-etc.
+This top level repo acts as an umbrella for general information, common issues, feature  requests, bug reports,
+etc about all the related projects.
 
 **Currently this project is in phase 1, and as such only the pipelines are in development.**
 
