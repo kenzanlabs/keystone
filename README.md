@@ -1,8 +1,8 @@
 ## Keystone
 
-The goal behind this project is to provide developers with the tools they need for easily setting up and configuring 
-a build system for a Front-End project by reducing boilerplate and providing out of the box functionality for the most 
-common of use cases.  This will be accomplished by creating a number of Gulp pipelines that can be used individually, 
+The goal behind this project is to provide developers with the tools they need for easily setting up and configuring
+a build system for a Front-End project by reducing boilerplate and providing out of the box functionality for the most
+common of use cases.  This will be accomplished by creating a number of Gulp pipelines that can be used individually,
 or configured for your project using a Yeoman Generator.  This top level project sets the expectations and goals, as
 well as overview for the project and how to get started.
 
@@ -24,17 +24,17 @@ TBD
 
 ## Pipelines
 Pipelines are designed with a stream in / stream out API interface.  The intent is that these pipelines can be used
-a la carte any project, and in any combination needed.  Currently, we have 
+a la carte any project, and in any combination needed.  Currently, we have
 
 ### Component Pipelines
-Component pipelines are wrappers around base level gulp pipelines for any number of low level build needs.   They 
+Component pipelines are wrappers around base level gulp pipelines for any number of low level build needs.   They
 follow a standard naming convention that clearly identifies their function
 
 `pipeline-{component}-{target}`
 
 
-| Component       | Role   | Target |
-| ------------- |:-------------:| -----:|
+| Component     |   Role   | Target |
+| ------------- | -------- | ------ |
 | Archive | Bundling all files into a single file for distribution or backup | .tar, .zip |
 | Compile | Compiling from higher level languages to native source | LESS, CoffeeScript, TypeScript |
 | Document | Documentation generation | ngDocs, KSS |
@@ -46,9 +46,29 @@ follow a standard naming convention that clearly identifies their function
 ### Feature Pipelines
 TBD
 
+### Usage
+Pipelines should expect a stream and return a stream (SISO).  This allows using Keystone pipelines easily with other
+pipelines
+
+```javascript
+var gulp = require('gulp');
+var otherPlugin = require('other-plugin');
+var exampleKeystonePipeline = require('pipeline-example')({
+  optionA: true,
+  optionB: false
+});
+
+gulp.task('some-task', function() {
+  return gulp.src(['src/**/*.js'])
+    .pipe(exampleKeystonePipeline.runTask());
+    .pipe(otherPlugin());
+    .pipe(gulp.dest('dest/');
+});
+```
+
 ### Active Projects
 | Package       | Description   | Repo |
-| ------------- |:-------------:| -----:|
+| ------------- | ------------- | ---- |
 | pipeline-compile-less | Pipeline to compile LESS into CSS | https://github.com/kenzanmedia/pipeline-compile-less |
 | pipeline-handyman | Utility pipeline for pipeline repos | https://github.com/kenzanmedia/pipeline-handyman |
 | pipeline-minify-css | Pipeline to minify and optionally concat CSS | https://github.com/kenzanmedia/pipeline-minify-css |
