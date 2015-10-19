@@ -31,7 +31,7 @@ Pipelines are designed with a stream in / stream out API interface.  The intent 
 a la carte any project, and in any combination needed.  Currently, we have
 
 ### Component Pipelines
-Component pipelines are wrappers around base level gulp pipelines for any number of low level build needs.   They
+Component pipelines are wrappers around base level gulp plugins for any number of low level build needs.   They
 follow a standard naming convention that clearly identifies their function
 
 `pipeline-{component}-{target}`
