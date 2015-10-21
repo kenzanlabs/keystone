@@ -1,5 +1,7 @@
 ## Keystone
 
+[![Join the chat at https://gitter.im/kenzanmedia/keystone](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kenzanmedia/keystone?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The goal behind this project is to provide developers with the tools they need for easily setting up and configuring
 a build system for a Front-End project by reducing boilerplate and providing out of the box functionality for the most
 common of use cases.  This will be accomplished by creating a number of Gulp pipelines that can be used individually,
