@@ -1,7 +1,5 @@
 ## Keystone
 
-[![Join the chat at https://gitter.im/kenzanmedia/keystone](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kenzanmedia/keystone?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 The goal behind this project is to provide developers with the tools they need for easily setting up and configuring
 a build system for a Front-End project by reducing boilerplate and providing out of the box functionality for the most
 common of use cases.  This will be accomplished by creating a number of Gulp pipelines that can be used individually,
@@ -75,11 +73,11 @@ gulp.task('some-task', function() {
 ### Active Projects
 | Package       | Description   | Repo |
 | ------------- | ------------- | ---- |
-| pipeline-compile-less | Pipeline to compile LESS into CSS | https://github.com/kenzanmedia/pipeline-compile-less |
-| pipeline-handyman | Utility pipeline for pipeline repos | https://github.com/kenzanmedia/pipeline-handyman |
-| pipeline-minify-css | Pipeline to minify and optionally concat CSS | https://github.com/kenzanmedia/pipeline-minify-css |
-| pipeline-minify-js | Pipeline to minify and optionally concat JS | https://github.com/kenzanmedia/pipeline-minify-js |
-| pipeline-test-node | Pipeline to test Node packages | https://github.com/kenzanmedia/pipeline-test-node |
-| pipeline-validate-css | Pipeline to lint / styleguide check CSS | https://github.com/kenzanmedia/pipeline-validate-css |
-| pipeline-validate-js | Pipeline to lint / styleguide check JS / ESLint | https://github.com/kenzanmedia/pipeline-validate-js |
+| pipeline-compile-less | Pipeline to compile LESS into CSS | https://github.com/kenzanlabs/pipeline-compile-less |
+| pipeline-handyman | Utility pipeline for pipeline repos | https://github.com/kenzanlabs/pipeline-handyman |
+| pipeline-minify-css | Pipeline to minify and optionally concat CSS | https://github.com/kenzanlabs/pipeline-minify-css |
+| pipeline-minify-js | Pipeline to minify and optionally concat JS | https://github.com/kenzanlabs/pipeline-minify-js |
+| pipeline-test-node | Pipeline to test Node packages | https://github.com/kenzanlabs/pipeline-test-node |
+| pipeline-validate-css | Pipeline to lint / styleguide check CSS | https://github.com/kenzanlabs/pipeline-validate-css |
+| pipeline-validate-js | Pipeline to lint / styleguide check JS / ESLint | https://github.com/kenzanlabs/pipeline-validate-js |
 
