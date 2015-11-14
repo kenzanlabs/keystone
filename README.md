@@ -43,7 +43,7 @@ follow a standard naming convention that clearly identifies their function
 | Compile | Compiling from higher level languages to native source | LESS, CoffeeScript, TypeScript |
 | Document | Documentation generation | ngDocs, KSS |
 | Minify | "Building" of static assets for production or local build environments | minify / concat (JS, CSS, HTML) |
-| Temoplate | HTML assembly from partials or auto templating in dependencies | inject, wiredeps, handlebars, mustache |
+| Template | HTML assembly from partials or auto templating in dependencies | inject, wiredeps, handlebars, mustache |
 | Test | Unit and e2e testing | node, karma, protractor |
 | Validate | Linting and styleguide checking | jscs, jslint, html-lint, css lint, less lint |
 
