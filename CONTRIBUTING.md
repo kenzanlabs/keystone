@@ -14,14 +14,23 @@ When making a PR, the following criteria should be met:
 1. Your PR has an issue created that has been reviewed by the Keystone maintaining team
 2. Your branch name follows the expected naming convention `{issue-type}/issue-{issueNumber}-description` of 
 issue, e.g. _bug/issue-111-fix-button-style_.  Issue type will be determined by the label added to the issue in Github.
-3. Your PR has passed the build
-4. If you have added any dependencies (npm / bower) to your project, links to the repo and explanations to their 
-inclusion should be provided
-5. Bower and NPM package versions should not contain `~` or `^`, we want to pin to specific versions, and should be
-organized alpha sort ASC
-6. There are no merge conflicts
-7. The entire body of work from the issue has been completed
-8. The issue being resolved should be included in the description of the PR
+3. Your PR has passed the build (will need to pass linting and unit testing checks)
+4. Unit tests have been added for code changes
+5. There are no merge conflicts
+6. The entire body of work from the issue has been completed
+7. The issue being resolved should be included in the description of the PR
+8. If applicable, make sure the project's README is kept up-to date.
+
+## Dependency Management
+When adding or updating NPM dependencies, please follow these rules
+
+1. If you have added any dependencies to your project, links to their repo and an explanation of their need should 
+be provided
+2. Please make sure your dependencies are installed correctly.  `dependencies` are those modules that are explicitly
+needed by this package in order to run.  `devDependencies` are only needed for local development or building the 
+package.  The rule of thumb is, _if it goes in src/index.js it's a dependency, otherwise it's a devDependency_
+3. NPM package versions should not contain `~` or `^` as we only want to pin to specific versions.  They should be
+organized alpha sorted ascending.
 
 ## Commit Messages
 Commit message are important when looking at the work history of an application.  Please consider the following as you 
