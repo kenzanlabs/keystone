@@ -40,7 +40,7 @@ commit your work:
 3. Limit the first line to 72 characters or less.
 4. Reference issues and pull requests liberally.
 
-All PRs will be squashed merged through the GitHub.
+All PRs will be squashed merged through GitHub.
 
 ## Continuous Integration
 Keystone projects enforce a number of best practices such as JS linting and unit testing.  Each PR will be run against
