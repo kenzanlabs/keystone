@@ -11,7 +11,7 @@ etc about all the related projects.
 **Currently this project is in phase 1, and as such only the pipelines are in development.**
 
 ## Roadmap
-The current Roadmap for 2016 the project is
+The current 2016 Roadmap for the project is:
 * Q2 - Develop all pipelines and complete [Milestone 1][] for the generator project, support and maintenance releases
 * Q3 - Develop all pipelines and complete [Milestone 2][] for the generator project, support and maintenance releases
 * Q4 - TBD
