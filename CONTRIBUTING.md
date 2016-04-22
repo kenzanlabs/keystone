@@ -17,7 +17,7 @@ When making a PR, the following criteria should be met:
 4. Unit tests have been added for code changes.
 5. There are no merge conflicts.
 6. The entire body of work from the issue has been completed.
-7. The issue being resolved should be included in the description of the PR.
+7. The issue being resolved should be included in the description of the PR with a reference to it, using #XX, where XX is the issue number.
 8. If applicable, make sure the project's README is kept up-to date.
 
 ## Dependency Management
