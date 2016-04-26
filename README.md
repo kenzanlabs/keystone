@@ -11,14 +11,15 @@ etc about all the related projects.
 **Currently this project is in phase 1, and as such only the pipelines are in development.**
 
 ## Roadmap
-The current 2016 Roadmap for the project is:
-* Q2 - Develop all pipelines and complete [Milestone 1][] for the generator project, support and maintenance releases
-* Q3 - Develop all pipelines and complete [Milestone 2][] for the generator project, support and maintenance releases
-* Q4 - TBD
+The current 2016 Roadmap for the project is
+
+| Milestone     |   Date   | Notes |
+| ------------- | -------- | ------ |
+| Generator Lifecycle | 7/1/2016 | [Milestone 1][] of the Keystone generator project; existing pipeline support and maintenace |
+| Generator Lifecycle - Enhancements | 9/28/2016 | [Milestone 2][] of the Keystone generator project, existing pipeline support and maintenace |
 
 [Milestone 1]: https://github.com/kenzanlabs/generator-keystone/milestones/Sprint%201:%20Generator%20Lifescycle%20(MVP)
 [Milestone 2]: https://github.com/kenzanlabs/generator-keystone/milestones/Sprint%202:%20Generator%20Lifecycle%20Enhancements
-
 
 ## Tools
 - [Node][] - the development environment
