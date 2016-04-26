@@ -31,8 +31,9 @@ The current 2016 Roadmap for the project is
 [Yeoman]: http://yeoman.io/
 
 ## Generator
-Keystone has reached a point where active development on the Generator can begin.  Two [milestones][] have been defined and are in active development now (see the above Roadmap section).  Please visit the repo to provide feedback and contribute!
+Keystone has reached a point where active development on the [Generator][] can begin.  Two [milestones][] have been defined and are in active development now (see the above Roadmap section).  Please visit the repo to provide feedback and contribute!
 
+[Generator]: https://github.com/kenzanlabs/generator-keystone
 [milestones]: https://github.com/kenzanlabs/generator-keystone/milestones
 
 ## Pipelines
