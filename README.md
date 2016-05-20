@@ -11,7 +11,15 @@ etc about all the related projects.
 **Currently this project is in phase 1, and as such only the pipelines are in development.**
 
 ## Roadmap
-TBD
+The current 2016 Roadmap for the project is
+
+| Milestone     |   Date   | Notes |
+| ------------- | -------- | ------ |
+| Generator Lifecycle | 7/1/2016 | [Milestone 1][] of the Keystone generator project; existing pipeline support and maintenace |
+| Generator Lifecycle - Enhancements | 9/28/2016 | [Milestone 2][] of the Keystone generator project, existing pipeline support and maintenace |
+
+[Milestone 1]: https://github.com/kenzanlabs/generator-keystone/milestones/Sprint%201:%20Generator%20Lifescycle%20(MVP)
+[Milestone 2]: https://github.com/kenzanlabs/generator-keystone/milestones/Sprint%202:%20Generator%20Lifecycle%20Enhancements
 
 ## Tools
 - [Node][] - the development environment
@@ -23,8 +31,10 @@ TBD
 [Yeoman]: http://yeoman.io/
 
 ## Generator
-TBD
+Keystone has reached a point where active development on the [Generator][] can begin.  Two [milestones][] have been defined and are in active development now (see the above Roadmap section).  Please visit the repo to provide feedback and contribute!
 
+[Generator]: https://github.com/kenzanlabs/generator-keystone
+[milestones]: https://github.com/kenzanlabs/generator-keystone/milestones
 
 ## Pipelines
 Pipelines are designed with a stream in / stream out API interface.  The intent is that these pipelines can be used
@@ -73,6 +83,7 @@ gulp.task('some-task', function() {
 ### Active Projects
 | Package       | Description   | Repo |
 | ------------- | ------------- | ---- |
+| generator-keystone | Yeoman Generator for scaffolding new builds leveraging Keystone pipelines | https://github.com/kenzanlabs/generator-keystone |
 | pipeline-compile-less | Pipeline to compile LESS into CSS | https://github.com/kenzanlabs/pipeline-compile-less |
 | pipeline-handyman | Utility pipeline for pipeline repos | https://github.com/kenzanlabs/pipeline-handyman |
 | pipeline-minify-css | Pipeline to minify and optionally concat CSS | https://github.com/kenzanlabs/pipeline-minify-css |
