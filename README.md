@@ -67,14 +67,14 @@ pipelines
 ```javascript
 var gulp = require('gulp');
 var otherPlugin = require('other-plugin');
-var exampleKeystonePipeline = require('pipeline-example')({
-  optionA: true,
-  optionB: false
-});
+var exampleKeystonePipeline = require('pipeline-example');
 
 gulp.task('some-task', function() {
   return gulp.src(['src/**/*.js'])
-    .pipe(exampleKeystonePipeline.runTask());
+    .pipe(exampleKeystonePipeline.runTask({
+      optionA: true,
+      optionB: false
+     }));
     .pipe(otherPlugin());
     .pipe(gulp.dest('dest/');
 });
