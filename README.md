@@ -85,6 +85,7 @@ gulp.task('some-task', function() {
 | ------------- | ------------- | ---- |
 | generator-keystone | Yeoman Generator for scaffolding new builds leveraging Keystone pipelines | https://github.com/kenzanlabs/generator-keystone |
 | pipeline-compile-less | Pipeline to compile LESS into CSS | https://github.com/kenzanlabs/pipeline-compile-less |
+| pipeline-compile-sass | Pipeline to compile SASS into CSS | https://github.com/kenzanlabs/pipeline-compile-sass |
 | pipeline-handyman | Utility pipeline for pipeline repos | https://github.com/kenzanlabs/pipeline-handyman |
 | pipeline-minify-css | Pipeline to minify and optionally concat CSS | https://github.com/kenzanlabs/pipeline-minify-css |
 | pipeline-minify-js | Pipeline to minify and optionally concat JS | https://github.com/kenzanlabs/pipeline-minify-js |
