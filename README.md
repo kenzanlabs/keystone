@@ -14,7 +14,7 @@ etc about all the related projects.
 The governing team will be:
 * Paul Barry - @paul-barry-kenzan 
 * Owen Buckley - @thescientist13 (Project Lead)
-* Rona Kilmer @rkunboxed 
+* Rona Kilmer - @rkunboxed 
 * Megan Sharon - @mgnsharon 
 
 ## Roadmap
