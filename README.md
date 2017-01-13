@@ -18,12 +18,12 @@ The governing team will be:
 * Megan Sharon - @mgnsharon 
 
 ## Roadmap
-The current 2016 Roadmap for the project is
+The current 2017 Roadmap for the project is
 
 | Milestone     |   Date   | Notes |
 | ------------- | -------- | ------ |
-| Generator Lifecycle | 7/1/2016 | [Milestone 1][] of the Keystone generator project; existing pipeline support and maintenace |
-| Generator Lifecycle - Enhancements | 9/28/2016 | [Milestone 2][] of the Keystone generator project, existing pipeline support and maintenace |
+| Generator Lifecycle | Q1 | [Milestone 1][] of the Keystone generator project; existing pipeline support and maintenace |
+| Generator Lifecycle - Enhancements | TBD | [Milestone 2][] of the Keystone generator project, existing pipeline support and maintenace |
 
 [Milestone 1]: https://github.com/kenzanlabs/generator-keystone/milestones/Sprint%201:%20Generator%20Lifescycle%20(MVP)
 [Milestone 2]: https://github.com/kenzanlabs/generator-keystone/milestones/Sprint%202:%20Generator%20Lifecycle%20Enhancements
