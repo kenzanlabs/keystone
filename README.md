@@ -10,6 +10,13 @@ etc about all the related projects.
 
 **Currently this project is in phase 1, and as such only the pipelines are in development.**
 
+## Governance
+The governing team will be:
+* Paul Barry - @paul-barry-kenzan 
+* Owen Buckley - @thescientist13 (Project Lead)
+* Rona Kilmer @rkunboxed 
+* Megan Sharon - @mgnsharon 
+
 ## Roadmap
 The current 2016 Roadmap for the project is
 
