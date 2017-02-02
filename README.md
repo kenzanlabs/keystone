@@ -98,8 +98,8 @@ gulp.task('some-task', function() {
 | pipeline-minify-js | Pipeline to minify and optionally concat JS | https://github.com/kenzanlabs/pipeline-minify-js |
 | pipeline-test-node | Pipeline to test Node packages | https://github.com/kenzanlabs/pipeline-test-node |
 | pipeline-validate-css | Pipeline to lint / styleguide check CSS | https://github.com/kenzanlabs/pipeline-validate-css |
+| pipeline-validate-html | Pipeline to lint HTML files via HTMLLint | https://github.com/kenzanlabs/pipeline-validate-html |
 | pipeline-validate-js | Pipeline to lint / styleguide check JS / ESLint | https://github.com/kenzanlabs/pipeline-validate-js |
-
 
 ## LICENSE
 Copyright 2015 Kenzan, LLC <http://kenzan.com>
